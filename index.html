@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
         <title>Anand Jee Choubey</title>
     </head>
     <body>
-        <h1>Hello Guys!</h1>
-        <h3>My name is Anand</h3>
+        <nav class="fixed-top navbar navbar-default" id="navbarscroller">
+            <div class="container">
+              <div class="nav navbar-nav d-inline">
+                <a class="navbar-brand text-uppercase" href="/">Anand</a>
+              </div>
+          
+              <div class="d-inline" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right nav-pills">
+                  <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#proj">Projects</a></li>
+                  <li><a href="#tech">Tech Stack</a></li>
+                  <li><a href="#exp">Experience</a></li>
+                  <li><a href="#pastach">Past Acheivements</a></li>
+                  <li><a href="#con">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container main" data-spy="scroll" data-target="#navbarscroller" data-offset="0">
+            <div class="row" id='about'>
+                <div class="col-md-6 front">
+                    <h1>Hello Guys!</h1>
+                    <h3>My name is Anand</h3>
+                    <h4>#Still Under Development</h4>
+                </div>
+            </div>
+            <div class="row" id='proj'>
+                <div class="panel1 jumbotron">
+                    <h3>Projects!</h3>
+                </div>
+            </div>
+            <div class="row" id='tech'>
+                <div class="panel1 jumbotron">
+                    <h3>Tech Stack!</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            React
+                        </div>
+                        <div class="col-md-4">
+                            Node
+                        </div>
+                        <div class="col-md-4">
+                            Django
+                        </div>
+                        <div class="col-md-4">
+                            SQL
+                        </div>
+                        <div class="col-md-4">
+                            C++
+                        </div>
+                        <div class="col-md-4">
+                            Python
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id='exp'>
+                <div class="panel1 jumbotron">
+                    <h3>Experience!</h3>
+                </div>
+            </div>
+            <div class="row" id="pastach">
+                <div class="panel1 jumbotron">
+                    <h3>Past Acheivements!</h3>
+                </div>
+            </div>
+            <div class="row" id="con">
+                <div class="panel1 jumbotron">
+                    <h3>Contact!</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="myfooter">
+            <a href="https://github.com/Anandjeechoubey">
+                <div class="social"><i class="fab fa-github fa-2x"></i></div>
+            </a>
+            <a href="https://www.facebook.com/anandjee.choubey/">
+                <div class="social"><i class="fab fa-facebook fa-2x"></i></div>
+            </a>
+            <a href="https://www.instagram.com/andychoubey/">
+                <div class="social"><i class="fab fa-instagram fa-2x"></i></div>
+            </a>
+            <a href="https://www.linkedin.com/in/anand-jee-5244411a2/">
+                <div class="social"><i class="fab fa-linkedin-in fa-2x"></i></div>
+            </a>
+        </div>
+        
     </body>
 </html>
